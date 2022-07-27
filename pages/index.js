@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+
         <div>
 
 {/* <p className={styles.extraGreen}>I am a super cool software engineer now. I make super cool sytuff with</p> */}
@@ -88,7 +88,7 @@ export default function Home() {
 <div className='center'>
     <Image className='margin-left'
         src='/agame.png'
-        alt='u'
+        alt='dragon flight game'
         width={300}
         height={300}
     />
@@ -99,7 +99,7 @@ export default function Home() {
 <div className='margin-left'>
     <Image className='margin-left'
         src='/fof.png'
-        alt='u'
+        alt='forza favorites app'
         width={300}
         height={300}
     />
@@ -110,7 +110,7 @@ export default function Home() {
 <div className='margin-left margin-right'>
     <Image className='margin-left'
         src='/pic.png'
-        alt='u'
+        alt='pic it up'
         width={300}
         height={300}
     />
