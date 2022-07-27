@@ -67,7 +67,7 @@ export default function About() {
                         margin-right: 20px
                     }
                 `}</style>
-            <h1 className='whiteText margin-left'>John D'Ercole</h1>
+            <h1 className='whiteText margin-left'>John Dercole</h1>
 
             <h4 className='orangeText margin-left'>Full Stack Software Engineer</h4>
             <div className='bg mt'>
