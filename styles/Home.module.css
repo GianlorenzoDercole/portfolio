@@ -38,13 +38,23 @@
 .title a:active {
   text-decoration: underline;
 }
-
+.flex {
+  display: flex;
+  justify-content: space-evenly
+}
+.orangeText {
+  color: #748DA6
+}
+.around {
+  display: flex;
+  justify-content: space-around
+}
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
-
+.white {color: white}
 .title,
 .description {
   text-align: center;

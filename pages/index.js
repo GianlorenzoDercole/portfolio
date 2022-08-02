@@ -17,7 +17,6 @@ export default function Home() {
 <div >
 
 
-
     <style jsx>{`
         .whiteText {
             color: white
@@ -74,9 +73,14 @@ export default function Home() {
         .margin-right {
             margin-right: 20px
         }
+        .mr {
+          margin-right: 200px
+      }
+      .ml {
+        margin-left: 200px
+    }
     `}</style>
 <h1 className='whiteText margin-left'>John Dercole</h1>
-
 <h4 className='orangeText margin-left'>Full Stack Software Engineer</h4>
 <div className='bg mt'>
 <div className='bg'>
@@ -93,7 +97,8 @@ export default function Home() {
         height={300}
     />
     <h3 className='whiteText'>Dragon Flight</h3>
-    <p className='whiteText'>a game made using html canvas</p>
+    <p className='whiteText'>2D game made using html canvas</p>
+    <p><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='orangeText'>Try it</a></p>
     <a href='https://github.com/GianlorenzoDercole/dragon_flight' className='orangeText'>View on github</a>
 </div>
 <div className='margin-left'>
@@ -104,7 +109,8 @@ export default function Home() {
         height={300}
     />
     <h3 className='whiteText'>Forza Favorites</h3>
-    <p className='whiteText'>built using express and SQL</p>
+    <p className='whiteText'>Full stack app built using express and SQL</p>
+    <p><a href='https://forza-favorites.herokuapp.com/' className='orangeText'>Try it</a></p>
     <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='orangeText'>View on github</a>
 </div>
 <div className='margin-left margin-right'>
@@ -116,7 +122,8 @@ export default function Home() {
     />
     <h3 className='whiteText'>Pic It Up</h3>
     <p className='whiteText'>Instagram clone built with a team of four</p>
-    <a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/' className='orangeText'>View on github</a>
+    <p><a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/' className='orangeText'>Try it</a></p>
+    <a href='https://github.com/GianlorenzoDercole/instagram-clone-client' className='orangeText'>View on github</a>
 </div>
 
 </div>
@@ -125,92 +132,83 @@ export default function Home() {
 </div>
 </div>
 <div className='mt'></div>
-<h2 className='gold underline margin-left'> Tech stack</h2>
-{/* <ul className='whiteText list'>
-
-    <li><Image
-        src='/javascript.png'
-        height={30}
-        width={30}
-    /> Javascript</li>
-    <li><Image
-        src='/python.png'
-        height={30}
-        width={30}
-    /> Python</li>
-    <li><Image
-        src='/express.png'
-        height={30}
-        width={30}
-    /> Express</li>
-    <li><Image
-        src='/react.png'
-        height={30}
-        width={30}
-    /> React</li>
-    <li><Image
-        src='/node-js.png'
-        height={30}
-        width={30}
-    /> Node.js</li>
-    <li><Image
-        src='/html5.png'
-        height={30}
-        width={30}
-    /> HTML</li>
-    <li><Image
-        src='/css3.png'
-        height={30}
-        width={30}
-    /> CSS</li>
-    <li><Image
-        src='/sql.png'
-        height={30}
-        width={30}
-    /> SQL</li>
-
-</ul> */}
-<div className='mt'></div>
+<h4 className='gold underline margin-left'> Tech stack</h4>
 <div className='margin-left flex-space'>
-<Image className='margin-left'
-        src='/javascript.png'
-        height={30}
-        width={30}
-    />
-    <Image className='margin-left'
-        src='/html5.png'
-        height={30}
-        width={30}
-    />
+            <Image className='margin-left'
+                    src='/javascript.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/html5.png'
+                    height={30}
+                    width={30}
+                />
 
-<Image
-        src='/css3.png'
-        height={30}
-        width={30}
-    />
-    <Image className='margin-left'
-        src='/python.png'
-        height={30}
-        width={30}
-    />
-    <Image className='margin-left'
-        src='/react.png'
-        height={30}
-        width={30}
-    />
-    <Image className='margin-left'
-        src='/node-js.png'
-        height={30}
-        width={30}
-    />
-    </div>
+            <Image
+                    src='/css3.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/python.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/react.png'
+                    height={30}
+                    width={30}
+                />
+                {/* <Image className='margin-left'
+                    src='/node-js.png'
+                    height={30}
+                    width={30}
+                /> */}
+                
+                </div>
+                <div className='margin-left flex-space'>
+                    <h2></h2>
+                </div>
+                <div className='margin-left flex-space'>
+                <Image className='margin-left'
+                    src='/sql-retro.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/mongodb.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/postman.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/django.png'
+                    height={30}
+                    width={30}
+                />
+                <Image className='margin-left'
+                    src='/node-js.png'
+                    height={30}
+                    width={30}
+                />
+                {/* <Image className='margin-left'
+                    src='/node-js.png'
+                    height={30}
+                    width={30}
+                /> */}
+                </div>
     <div className='mt'></div>
     <div className='bg'>
     <div className='bg'>
     <h3 className='bg'>g</h3>
 </div>
-    <h1 className='gold underline margin-left'> About me</h1>
-    <h3 className='whiteText margin-left margin-right'>I am a full stack software engineer with a passion for design, music and interactive features. I prioritize writing code that is precise, maintainable and easy for other engineers to use. Providing customized solutions to ever changing problems is my favorite part of being an engineer.</h3>
+    <h4 className='gold underline margin-left'> About me</h4>
+    <h3 className='whiteText margin-left margin-right'>I am a full stack software engineer with a passion for design, music and interactive features. I prioritize writing clean code that is maintainable and easy for other engineers to use. Providing customized solutions to ever changing problems is my favorite part of being an engineer.</h3>
     <h2 className='whiteText'><a href='https://github.com/GianlorenzoDercole'> View My GitHub</a></h2>
     <div className='bg'>
     <h3 className='bg'>g</h3>
@@ -219,7 +217,9 @@ export default function Home() {
     </div>
     <h1 className='whiteText'>Contact</h1>
     <h3 className='whiteText'>johndercole01@gmail.com</h3>
-    <h3><a className='whiteText' href='https://github.com/GianlorenzoDercole'>https://github.com/GianlorenzoDercole</a></h3>
+    <h3 className='whiteText'>860 689 3058</h3>
+    <h3><a className='whiteText' href='https://github.com/GianlorenzoDercole'>github</a></h3>
+    <h3><a className='whiteText' href='https://www.linkedin.com/in/john-dercole-92501223b/'>linkedin</a></h3>
 
 </div>
 
