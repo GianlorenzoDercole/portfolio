@@ -93,13 +93,12 @@ export default function Home() {
     }
 
     `}</style>
-<h1 className='whiteText margin-left'>John Dercole</h1>
-<h4 className='orangeText margin-left'>Full Stack Software Engineer</h4>
+
 <div className='bg mt'>
 <div className='bg'>
     <h3 className='bg'>g</h3>
 </div>
-<h4 className='gold underline margin-left mt'>Check out some of my recent projects</h4>
+<h1 className='gold underline margin-left mt'>Recent projects</h1>
 <div className='mt'></div>
 <div className='margin-left flex'>
 <div className='center margin-bottom'>
@@ -140,99 +139,22 @@ export default function Home() {
 </div>
 
 </div>
-<div className='bg'>
-    <h3 className='bg'>g</h3>
-</div>
-</div>
-<div className='mt'></div>
-<h4 className='gold underline margin-left'> Tech stack</h4>
-<div className='margin-left flex-space'>
-            <Image className='margin-left'
-                    src='/javascript.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/html5.png'
-                    height={30}
-                    width={30}
-                />
 
-            <Image
-                    src='/css3.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/python.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/react.png'
-                    height={30}
-                    width={30}
-                />
-                {/* <Image className='margin-left'
-                    src='/node-js.png'
-                    height={30}
-                    width={30}
-                /> */}
+</div>
 
-                </div>
-                <div className='margin-left flex-space'>
-                    <h2></h2>
-                </div>
-                <div className='margin-left flex-space'>
-                <Image className='margin-left'
-                    src='/sql-retro.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/mongodb.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/postman.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/django.png'
-                    height={30}
-                    width={30}
-                />
-                <Image className='margin-left'
-                    src='/node-js.png'
-                    height={30}
-                    width={30}
-                />
-                {/* <Image className='margin-left'
-                    src='/node-js.png'
-                    height={30}
-                    width={30}
-                /> */}
-                </div>
+
+
+
+
+
     <div className='mt'></div>
     <div className='bg'>
     <div className='bg'>
-    <h3 className='bg'>g</h3>
-</div>
-    <h4 className='gold underline margin-left'> About me</h4>
-    <h3 className='whiteText margin-left margin-right'>I am a full stack software engineer with a passion for design, music and interactive features. I prioritize writing clean code that is maintainable and easy for other engineers to use. Providing customized solutions to ever changing problems is my favorite part of being an engineer.</h3>
-    <h2 className='whiteText'><a href='https://github.com/GianlorenzoDercole'> View My GitHub</a></h2>
-    <div className='bg'>
-    <h3 className='bg'>g</h3>
+
 </div>
 
+
     </div>
-    <h1 className='whiteText'>Contact</h1>
-    <h3 className='whiteText'>johndercole01@gmail.com</h3>
-    <h3 className='whiteText'>860 689 3058</h3>
-    <h3><a className='whiteText' href='https://github.com/GianlorenzoDercole'>github</a></h3>
-    <h3><a className='whiteText' href='https://www.linkedin.com/in/john-dercole-92501223b/'>linkedin</a></h3>
 
 </div>
 
@@ -246,7 +168,3 @@ export default function Home() {
     </div>
   )
 }
-//
-
-
-//////////////////////////////////////

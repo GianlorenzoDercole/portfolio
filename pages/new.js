@@ -63,9 +63,18 @@ export default function About() {
                         background-color: #064663;
                         color: #064663
                     }
+                    .margin-bottom {
+                        margin-bottom : 20px
+                    }
                     .margin-right {
                         margin-right: 20px
                     }
+                    @media (max-width: 600px) {
+                        .flex {
+                          display: grid
+
+                        }
+                      }
                 `}</style>
             <h1 className='whiteText margin-left'>John Dercole</h1>
 
@@ -77,7 +86,7 @@ export default function About() {
             <h4 className='gold underline margin-left mt'>Check out some recent projects</h4>
             <div className='mt'></div>
             <div className='margin-left flex'>
-            <div className='center'>
+            <div className='center margin-bottom '>
                 <Image className='margin-left'
                     src='/agame.png'
                     alt='u'
@@ -88,7 +97,7 @@ export default function About() {
                 <p className='whiteText'>a game made using html canvas</p>
                 <a href='https://github.com/GianlorenzoDercole/dragon_flight' className='orangeText'>View on github</a>
             </div>
-            <div className='margin-left'>
+            <div className='margin-left margin-bottom'>
                 <Image className='margin-left'
                     src='/fof.png'
                     alt='u'
@@ -99,7 +108,7 @@ export default function About() {
                 <p className='whiteText'>built using express and SQL</p>
                 <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='orangeText'>View on github</a>
             </div>
-            <div className='margin-left margin-right'>
+            <div className='margin-left margin-right margin-bottom'>
                 <Image className='margin-left'
                     src='/pic.png'
                     alt='u'
@@ -112,6 +121,13 @@ export default function About() {
             </div>
 
             </div>
+
+
+
+
+
+
+
             <div className='bg'>
                 <h3 className='bg'>g</h3>
             </div>
@@ -152,7 +168,7 @@ export default function About() {
                     height={30}
                     width={30}
                 /> */}
-
+//////////////////////////////
 
 
 

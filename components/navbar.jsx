@@ -2,16 +2,41 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 export default function Navbar() {
     return (
-
         <nav>
-            {/* <div className={styles.flex}>
-            <p className={styles.orangeText} >Home</p>
+            <div className={styles.margint}>
+            <div className={styles.flex}>
+                <div className={styles.orangeText}>
+            <Link href='/'>
+                Home
+            </Link>
+            </div>
 
-                <p className={styles.orangeText} >About</p>
-                <p className={styles.orangeText} >Contact</p>
-                <p className={styles.orangeText} >Projects</p>
 
-            </div> */}
+
+
+
+
+
+
+
+
+
+            <div className={styles.orangeText}>
+            <Link href='/about'>
+                About
+            </Link>
+            </div>
+            <div className={styles.orangeText}>
+            <Link href='/projects'>
+                Projects
+            </Link>
+            </div>
+            <div className={styles.orangeText}>
+    <Link href='/contact'>
+                Contact
+            </Link>
+            </div>
+            </div>
             {/* <Link href='/'>
                 Home
             </Link>
@@ -19,6 +44,7 @@ export default function Navbar() {
             <Link href='/about'>
                 about m
             </Link> */}
+            </div>
         </nav>
     )
 }
