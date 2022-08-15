@@ -90,6 +90,12 @@ export default function Home() {
         display: grid
 
       }
+      .ml{
+        margin-right: 20px;
+      }
+      .mr {
+        margin-left: 20px;
+      }
     }
 
     `}</style>
@@ -145,7 +151,7 @@ export default function Home() {
 </div>
 </div>
 <div className='mt'></div>
-<h4 className='gold underline margin-left'> Tech stack</h4>
+<h4 className='gold underline'> Tech stack</h4>
 <div className='margin-left flex-space'>
             <Image className='margin-left'
                     src='/javascript.png'
@@ -220,8 +226,18 @@ export default function Home() {
     <div className='bg'>
     <h3 className='bg'>g</h3>
 </div>
-    <h4 className='gold underline margin-left'> About me</h4>
-    <h3 className='whiteText margin-left margin-right'>I am a full stack software engineer with a passion for design, music and interactive features. I prioritize writing clean code that is maintainable and easy for other engineers to use. Providing customized solutions to ever changing problems is my favorite part of being an engineer.</h3>
+    <h4 className='gold underline '> About me</h4>
+    <div>
+
+    <h3 className='whiteText ml mr'>I am a full stack software engineer with a passion for design, music and interactive features. I prioritize writing clean code that is maintainable and easy for other engineers to use. Providing customized solutions to ever changing problems is my favorite part of being an engineer.</h3>
+    {/* <Image className=' margin-right'
+        src='/agame.png'
+        alt='dragon flight game'
+        width={300}
+        height={300}
+    /> */}
+    </div>
+
     <h2 className='whiteText'><a href='https://github.com/GianlorenzoDercole'> View My GitHub</a></h2>
     <div className='bg'>
     <h3 className='bg'>g</h3>
@@ -250,3 +266,4 @@ export default function Home() {
 
 
 //////////////////////////////////////
+/////////////////////////////////////
