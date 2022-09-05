@@ -158,9 +158,6 @@ export default function Home() {
 
 </div>
 
-
-
-
 {/* <img src='/killer-bunny.jpg' alt='vil'/> */}
 
 </div>
