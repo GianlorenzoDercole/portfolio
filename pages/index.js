@@ -76,8 +76,8 @@ export default function Home() {
             color: #ECB365
         }
         .bg {
-            background-color: #064663;
-            color: #064663
+            background-color: #222831;
+            color: #222831
         }
         .whiteBackground {
             background-color: white;
@@ -102,6 +102,9 @@ export default function Home() {
       .mr {
         margin-left: 20px;
       }
+      .b{
+          font-size: 50px;
+      }
     }
 
 
@@ -113,9 +116,13 @@ export default function Home() {
 
 
 
+
+
+
 </div> */}
 <div className='bg'>
-    <h1 className='whiteText'>Hi, I'm John</h1>
+    <p className='bg'>hi</p>
+    <h1 className='whiteText'>Hi, Im John</h1>
     <Image className='margin-left'
                     src='/j.jpg'
                     height={300}
@@ -126,7 +133,7 @@ export default function Home() {
 
     <p className='whiteText'>I prioritze writeing clean code and enjoy working with others oipuopiupoiuopiumpoiumpoiuopiuopiuopiumopiumopiumpoiumpoiumopiuopiupoium</p>
     <p className='whiteText'>I prioritze writeing clean code and enjoy working with others oipuopiupoiuopiumpoiumpoiuopiuopiuopiumopiumopiumpoiumpoiumopiuopiupoium</p>
-    <h1 className='bg'> hi</h1>
+    <button className={styles.button}>projects</button>
     <h1 className='bg'> hi</h1>
     </div>
 
@@ -153,9 +160,14 @@ export default function Home() {
                 />
     </div>
 </div>
+<div className='whiteBackground'>
+    <h1 className='whiteText'>hi</h1>
+</div>
 
 <div className='bg'>
+<p className='bg'>hi</p>
 <h1 className='whiteText'>Projects</h1>
+
 <div className='bg margin-left flex'>
     <div className='center margin-bottom'>
     <Image className='margin-left'
