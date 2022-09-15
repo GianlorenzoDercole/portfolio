@@ -109,8 +109,7 @@ export default function Home() {
 
 </div>
 
-
-{/* <embed src="John_Dercole_Resume_2022.pdf" width="1200px" height="900px" /> */}
+<embed src="John_Dercole_Resume_2022.pdf" width="1200px" height="900px" />
 
 
 </div>
