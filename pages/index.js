@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Mobile.module.css'
+import Link from 'next/link'
 export default function Home() {
   return (
     <div >
@@ -166,8 +167,7 @@ export default function Home() {
         I prioritize writing clean code that is maintainable and easy for other engineers to use.  Providing customized solutions to ever changing
       problems is my favorite part of being a software engineer.</h3>
       <p className='whiteText'>-</p>
-
-      <a href='/resume'><button className={styles.slbutton}>Resume</button></a>
+      <Link href='/resume'><button className={styles.slbutton}>Resume</button></Link>
       <a href='https://github.com/GianlorenzoDercole'><button className={styles.srbutton}>GitHub</button></a>
 
     </div>
@@ -362,9 +362,9 @@ export default function Home() {
         <h3 className=' whiteText'>johndercole01@gmail.com</h3>
         <h3 className='  whiteText'>(860) 689 3058</h3>
         <div className='  whiteText'>
-          <a href='/resume'>
+          <Link href='/resume'>
           <h3 className={styles.underline}>Resume</h3>
-          </a>
+          </Link>
 
         </div>
         <div className=' mbl whiteText'>
