@@ -163,9 +163,9 @@ export default function Home() {
       <hr className={styles.line}></hr>
       {/* <p className='whiteText'>-</p> */}
       <p className='blueText'></p>
-      <h3 className={styles.mr}>I am a full stack software engineer with a passion for design, music and interactive features.
+      <p className={styles.mr}>I am a full stack software engineer with a passion for design, music and interactive features.
         I prioritize writing clean code that is maintainable and easy for other engineers to use.  Providing customized solutions to ever changing
-      problems is my favorite part of being a software engineer.</h3>
+      problems is my favorite part of being a software engineer.</p>
       <p className='whiteText'>-</p>
       <Link href='/resume'><button className={styles.slbutton}>Resume</button></Link>
       <a href='https://github.com/GianlorenzoDercole'><button className={styles.srbutton}>GitHub</button></a>
@@ -212,21 +212,10 @@ export default function Home() {
 
     {/* <p><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>Try it</a></p> */}
 
+
 </div>
-<div className=' margin-bottom'>
-    <a href='https://forza-favorites.herokuapp.com/'>
-    <Image
-        src='/fof.png'
-        alt='forza favorites app'
-        width={300}
-        height={300}
-    />
-    </a>
-    <h3 className='whiteText'>Forza Favorites</h3>
-    <p className='whiteText'>Full stack app built using Express and SQL</p>
-    <a href='https://forza-favorites.herokuapp.com/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
-    <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
-</div>
+
+
 <div className=' margin-bottom'>
     <a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/'>
     <Image
@@ -241,6 +230,46 @@ export default function Home() {
     <a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
     <a href='https://github.com/GianlorenzoDercole/instagram-clone-client' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
 </div>
+
+
+<div className=' margin-bottom'>
+<a href='https://github.com/GianlorenzoDercole/pypong'>
+<Image
+        src='/pypong.png'
+        alt='dragon flight game'
+        width={300}
+        height={300}
+    />
+</a>
+
+    <h3 className='whiteText'>PyPong</h3>
+    <p className='whiteText'>Player vs AI Pong built with Python</p>
+    {/* <a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a> */}
+
+    <a href='https://github.com/GianlorenzoDercole/pypong' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
+
+    {/* <p className={styles.ulh}><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>View on GitHub</a></p> */}
+
+    {/* <p><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>Try it</a></p> */}
+
+</div>
+
+<div className=' margin-bottom'>
+    <a href='https://github.com/GianlorenzoDercole/Forza_Favorites'>
+    <Image
+        src='/fof.png'
+        alt='forza favorites app'
+        width={300}
+        height={300}
+    />
+    </a>
+    <h3 className='whiteText'>Forza Favorites</h3>
+    <p className='whiteText'>Full stack app built using Express and SQL</p>
+    {/* <a href='https://forza-favorites.herokuapp.com/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a> */}
+    <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
+</div>
+
+
 </div>
 
 

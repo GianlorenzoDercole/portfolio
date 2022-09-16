@@ -231,7 +231,22 @@
 
 
 
-
+  .smallbuttonc{
+    color: white;
+    background-color: #222831;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    height:30px;
+    width: 100px;
+    font-size: 19px;
+    transition: background-color .5s, color .5s;
+    /* margin-left: 20px; */
+  }
+  .smallbuttonc:hover {
+    background-color: white;
+    color: #222831
+  }
 .flexsb{
   text-decoration: none;
 }
