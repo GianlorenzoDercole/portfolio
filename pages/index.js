@@ -204,9 +204,9 @@ export default function Home() {
 
     <h3 className='whiteText'>Dragon Flight</h3>
     <p className='whiteText'>2D game made using HTML canvas</p>
-    <a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
+    <a href='https://gianlorenzodercole.github.io/dragon_flight_2/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
 
-    <a href='https://github.com/GianlorenzoDercole/dragon_flight' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
+    <a href='https://github.com/GianlorenzoDercole/dragon_flight_2' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
 
     {/* <p className={styles.ulh}><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>View on GitHub</a></p> */}
 
