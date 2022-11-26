@@ -217,7 +217,7 @@ export default function Home() {
 
 
 <div className=' margin-bottom'>
-    <a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/'>
+    <a href='https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/'>
     <Image
         src='/pic.png'
         alt='pic it up'
@@ -227,11 +227,12 @@ export default function Home() {
     </a>
     <h3 className='whiteText'>Pic It Up</h3>
     <p className='whiteText'>Instagram clone built with a team of four</p>
-    <a href='https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
+    <a href='https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
     <a href='https://github.com/GianlorenzoDercole/instagram-clone-client' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
 </div>
+{/* https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/ */}
 
-
+{/* https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/ */}
 <div className=' margin-bottom'>
 <a href='https://github.com/GianlorenzoDercole/pypong'>
 <Image
