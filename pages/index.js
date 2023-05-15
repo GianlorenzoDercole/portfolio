@@ -255,6 +255,55 @@ export default function Home() {
 
 </div>
 
+
+
+
+</div>
+
+
+
+
+
+<div className='flex mts'>
+
+<div className=' margin-bottom'>
+<a href='https://github.com/GianlorenzoDercole/tracker'>
+<Image
+        src='/djangolistt.png'
+        alt='dragon flight game'
+        width={300}
+        height={300}
+    />
+</a>
+
+    <h3 className='whiteText'>Django Finance</h3>
+    <p className='whiteText'>Finance app built with Python/Django</p>
+    <a href='https://github.com/GianlorenzoDercole/tracker' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
+
+    {/* <p className={styles.ulh}><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>View on GitHub</a></p> */}
+
+    {/* <p><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>Try it</a></p> */}
+
+
+</div>
+
+
+<div className=' margin-bottom'>
+    <a href='https://github.com/GianlorenzoDercole/react-recipes'>
+    <Image
+        src='/recipess.png'
+        alt='pic it up'
+        width={300}
+        height={300}
+    />
+    </a>
+    <h3 className='whiteText'>React Recipes</h3>
+    <p className='whiteText'>Instagram clone built with a team of four</p>
+    <a href='https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
+    <a href='https://github.com/GianlorenzoDercole/react-recipes' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
+</div>
+{/* https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/ */}
+{/* https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/ */}
 <div className=' margin-bottom'>
     <a href='https://github.com/GianlorenzoDercole/Forza_Favorites'>
     <Image
@@ -269,6 +318,8 @@ export default function Home() {
     {/* <a href='https://forza-favorites.herokuapp.com/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a> */}
     <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
 </div>
+
+
 
 
 </div>
