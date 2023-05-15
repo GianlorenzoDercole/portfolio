@@ -298,7 +298,7 @@ export default function Home() {
     />
     </a>
     <h3 className='whiteText'>React Recipes</h3>
-    <p className='whiteText'>Instagram clone built with a team of four</p>
+    <p className='whiteText'>Recipe finder app built with React</p>
     <a href='https://gianlorenzodercole.github.io/react_recipes_again/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
     <a href='https://github.com/GianlorenzoDercole/react-recipes' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
 </div>
