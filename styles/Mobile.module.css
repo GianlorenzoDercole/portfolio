@@ -317,6 +317,19 @@
   .mt{
     margin-top: 250px;
 }
+.ah:after{
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.portfolio_pic{
+
+  transition: transform .2s;
+  border: 1px solid;
+  padding: .6rem;
+  box-shadow: 8px 5px 5px ;
+}
+.portfolio_pic:hover{
+  transform: scale(1.05)
+}
   @media (max-width: 700px) {
     .left{
       text-align: center;

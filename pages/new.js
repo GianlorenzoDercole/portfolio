@@ -8,7 +8,7 @@
 
 
 
-
+// http://django-cocktails-env.eba-uppt6yjw.us-east-2.elasticbeanstalk.com/
 
 
 import Head from 'next/head'
@@ -205,9 +205,13 @@ export default function Home() {
 
 <div className='flex'>
 
+
 <div className=' margin-bottom'>
-<a href='https://gianlorenzodercole.github.io/dragon_flight/'>
+<div className={styles.portfolio_pic}>
+<a  href='https://gianlorenzodercole.github.io/dragon_flight/'>
+
 <Image
+
         src='/agame.png'
         alt='dragon flight game'
         width={300}
@@ -215,8 +219,11 @@ export default function Home() {
     />
 </a>
 
+
     <h3 className='whiteText'>Dragon Flight</h3>
-    <p className='whiteText'>2D game made using HTML canvas</p>
+    <p className='whiteText'>Javascript, CSS, HTML</p>
+    <p className='whiteText'>2D game built using canvas</p>
+
     <a href='https://gianlorenzodercole.github.io/dragon_flight_2/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
 
     <a href='https://github.com/GianlorenzoDercole/dragon_flight_2' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
@@ -227,9 +234,11 @@ export default function Home() {
 
 
 </div>
+</div>
 
 
 <div className=' margin-bottom'>
+<div className={styles.portfolio_pic}>
     <a href='https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/'>
     <Image
         src='/pic.png'
@@ -239,14 +248,18 @@ export default function Home() {
     />
     </a>
     <h3 className='whiteText'>Pic It Up</h3>
+    <p className='whiteText'>React, Express, MongoDB, Node.js</p>
     <p className='whiteText'>Instagram clone built with a team of four</p>
     <a href='https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a>
     <a href='https://github.com/GianlorenzoDercole/instagram-clone-client' className='whiteText'><button className={styles.smallbuttonr}>GitHub</button></a>
 </div>
+</div>
 {/* https://62bf3556f83fa3115ff23304--reliable-bombolone-dbc4f8.netlify.app/ */}
 
 {/* https://62bf355dbab5b313b12cda05--inspiring-taiyaki-bccd73.netlify.app/ */}
+
 <div className=' margin-bottom'>
+<div className={styles.portfolio_pic}>
 <a href='https://github.com/GianlorenzoDercole/pypong'>
 <Image
         src='/pypong.png'
@@ -257,11 +270,12 @@ export default function Home() {
 </a>
 
     <h3 className='whiteText'>PyPong</h3>
+    <p className='whiteText'>Python, Pygame</p>
     <p className='whiteText'>Player vs AI Pong built with Python</p>
     {/* <a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a> */}
 
     <a href='https://github.com/GianlorenzoDercole/pypong' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
-
+    </div>
     {/* <p className={styles.ulh}><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>View on GitHub</a></p> */}
 
     {/* <p><a href='https://gianlorenzodercole.github.io/dragon_flight/' className='whiteText'>Try it</a></p> */}
@@ -269,6 +283,7 @@ export default function Home() {
 </div>
 
 <div className=' margin-bottom'>
+<div className={styles.portfolio_pic}>
     <a href='https://github.com/GianlorenzoDercole/Forza_Favorites'>
     <Image
         src='/fof.png'
@@ -278,9 +293,11 @@ export default function Home() {
     />
     </a>
     <h3 className='whiteText'>Forza Favorites</h3>
+    <p className='whiteText'>javascript</p>
     <p className='whiteText'>Full stack app built using Express and SQL</p>
     {/* <a href='https://forza-favorites.herokuapp.com/' className='whiteText'><button className={styles.smallbutton}>Try it</button></a> */}
     <a href='https://github.com/GianlorenzoDercole/Forza_Favorites' className='whiteText'><button className={styles.smallbuttonc}>GitHub</button></a>
+    </div>
 </div>
 
 
