@@ -317,12 +317,15 @@
   .mt{
     margin-top: 250px;
 }
+.bold{
+  font-weight: 500;
+}
 .ah:after{
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 .portfolio_pic{
 
-  transition: transform .2s;
+  transition: transform .1s;
   border: 1px solid;
   padding: .6rem;
   box-shadow: 8px 5px 5px ;
