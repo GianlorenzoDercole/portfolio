@@ -1202,6 +1202,49 @@ export default function Home() {
                 <p className={styles.bold}>Node.js</p>
                 </div>
 </div>
+
+<div className=' flex-space mts'>
+                <div>
+                <Image className='margin-left'
+                    src='/expressp.png'
+                    height={60}
+                    width={60}
+                />
+                <p className={styles.bold}>Express</p>
+                </div>
+                <div>
+                <Image className='margin-left'
+                    src='/pygamess.png'
+                    height={60}
+                    width={60}
+                />
+                <p className={styles.bold}>Pygame</p>
+                </div>
+                <div>
+                <Image className='margin-left'
+                    src='/tailwinds.png'
+                    height={60}
+                    width={60}
+                />
+                <p className={styles.bold}>Tailwind</p>
+                </div>
+                <div>
+                <Image className='margin-left'
+                    src='/Bootstrap_logo.svg.png'
+                    height={60}
+                    width={60}
+                />
+                <p className={styles.bold}>Bootstrap</p>
+                </div>
+                <div>
+                <Image className='margin-left'
+                    src='/aws.png'
+                    height={60}
+                    width={60}
+                />
+                <p className={styles.bold}>AWS</p>
+                </div>
+</div>
 <div>
   <h1 className='whiteText'>-</h1>
 </div>
