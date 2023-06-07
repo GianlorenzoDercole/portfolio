@@ -1117,7 +1117,7 @@ export default function Home() {
     </div>
 
     <div className=' flex-space mts'>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/javascript.png'
                     height={60}
@@ -1125,7 +1125,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Javascript</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/html5.png'
                     height={60}
@@ -1134,7 +1134,7 @@ export default function Home() {
                 <p className={styles.bold}>HTML</p>
                 </div>
 
-                <div>
+                <div className={styles.icon_pic}>
                 <Image
                     src='/css3.png'
                     height={60}
@@ -1142,7 +1142,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>CSS</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/react.png'
                     height={60}
@@ -1150,7 +1150,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>React</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/python.png'
                     height={60}
@@ -1160,8 +1160,32 @@ export default function Home() {
                 </div>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div className=' flex-space mts'>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/sql-retro.png'
                     height={60}
@@ -1169,7 +1193,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>SQL</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/mongodb.png'
                     height={60}
@@ -1177,7 +1201,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>MongoDB</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/postman.png'
                     height={60}
@@ -1185,7 +1209,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Postman</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/django.png'
                     height={60}
@@ -1193,7 +1217,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Django</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/node-js.png'
                     height={60}
@@ -1204,7 +1228,7 @@ export default function Home() {
 </div>
 
 <div className=' flex-space mts'>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/expressp.png'
                     height={60}
@@ -1212,7 +1236,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Express</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/pygamess.png'
                     height={60}
@@ -1220,7 +1244,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Pygame</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/tailwinds.png'
                     height={60}
@@ -1228,7 +1252,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Tailwind</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/Bootstrap_logo.svg.png'
                     height={60}
@@ -1236,7 +1260,7 @@ export default function Home() {
                 />
                 <p className={styles.bold}>Bootstrap</p>
                 </div>
-                <div>
+                <div className={styles.icon_pic}>
                 <Image className='margin-left'
                     src='/aws.png'
                     height={60}

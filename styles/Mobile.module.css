@@ -317,6 +317,12 @@
   .mt{
     margin-top: 250px;
 }
+.icon_pic{
+  transition: transform .2s;
+}
+.icon_pic:hover{
+  transform: scale(1.5)
+}
 .bold{
   font-weight: 500;
 }
