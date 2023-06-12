@@ -919,6 +919,9 @@ export default function Home() {
       <p className={styles.mr}>I am a full stack software engineer with a passion for design, music and interactive features.
         I prioritize writing clean code that is maintainable and easy for other engineers to use.  Providing customized solutions to ever changing
       problems is my favorite part of being a software engineer.</p>
+      <p className={styles.mr}>After receiving a scholarship to attend Berklee College of Music in Boston, I played music professionally in New York and Connecticut for many years and enjoyed teaching students at workshops and clinics.</p>
+      <p className={styles.mr}>I had the oppurtunity to perform/teach for the Union Square Concert Series in San Francisco, The NH Bass Festival and the Hudson Union Society  just to name a few.</p>
+      <p className={styles.mr}>After taking a few online software engineering courses, I attended General Assembly for a 500 hour software engineering boot camp.  Thank you for taking the time to check out my portfolio!</p>
       <p className='whiteText'>-</p>
       <Link href='/resume'><button className={styles.slbutton}>Resume</button></Link>
       <a href='https://github.com/GianlorenzoDercole'><button className={styles.srbutton}>GitHub</button></a>
