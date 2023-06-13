@@ -980,7 +980,7 @@ export default function Home() {
 <div className={styles.portfolio_pic}>
     <a href='http://django-cocktails-env.eba-uppt6yjw.us-east-2.elasticbeanstalk.com/'>
     <Image
-        src='/cocktailss.png'
+        src='/sf_cocktails.png'
         alt='forza favorites app'
         width={300}
         height={300}
@@ -1033,7 +1033,7 @@ export default function Home() {
 <div className={styles.portfolio_pic}>
 <a href='https://github.com/GianlorenzoDercole/tracker'>
 <Image
-        src='/djangolistt.png'
+        src='/finance_app.png'
         alt='dragon flight game'
         width={300}
         height={300}
